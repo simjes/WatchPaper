@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		F4D9B8D21D8DE45600780C13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8D11D8DE45600780C13 /* main.swift */; };
+		F4D9B8DA1D8DE57A00780C13 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D9B8D91D8DE57A00780C13 /* libsqlite3.tbd */; };
+		F4D9B8F51D8DE62F00780C13 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8DD1D8DE62F00780C13 /* Blob.swift */; };
+		F4D9B8F61D8DE62F00780C13 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8DE1D8DE62F00780C13 /* Connection.swift */; };
+		F4D9B8F71D8DE62F00780C13 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8E11D8DE62F00780C13 /* SQLite-Bridging.m */; };
+		F4D9B8F81D8DE62F00780C13 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8E21D8DE62F00780C13 /* Statement.swift */; };
+		F4D9B8F91D8DE62F00780C13 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8E31D8DE62F00780C13 /* Value.swift */; };
+		F4D9B8FA1D8DE62F00780C13 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8E51D8DE62F00780C13 /* FTS4.swift */; };
+		F4D9B8FB1D8DE62F00780C13 /* R*Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8E61D8DE62F00780C13 /* R*Tree.swift */; };
+		F4D9B8FC1D8DE62F00780C13 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8E71D8DE62F00780C13 /* Foundation.swift */; };
+		F4D9B8FD1D8DE62F00780C13 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8E81D8DE62F00780C13 /* Helpers.swift */; };
+		F4D9B8FE1D8DE62F00780C13 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8EC1D8DE62F00780C13 /* AggregateFunctions.swift */; };
+		F4D9B8FF1D8DE62F00780C13 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8ED1D8DE62F00780C13 /* Collation.swift */; };
+		F4D9B9001D8DE62F00780C13 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8EE1D8DE62F00780C13 /* CoreFunctions.swift */; };
+		F4D9B9011D8DE62F00780C13 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8EF1D8DE62F00780C13 /* CustomFunctions.swift */; };
+		F4D9B9021D8DE62F00780C13 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8F01D8DE62F00780C13 /* Expression.swift */; };
+		F4D9B9031D8DE62F00780C13 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8F11D8DE62F00780C13 /* Operators.swift */; };
+		F4D9B9041D8DE62F00780C13 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8F21D8DE62F00780C13 /* Query.swift */; };
+		F4D9B9051D8DE62F00780C13 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8F31D8DE62F00780C13 /* Schema.swift */; };
+		F4D9B9061D8DE62F00780C13 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9B8F41D8DE62F00780C13 /* Setter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +44,31 @@
 /* Begin PBXFileReference section */
 		F4D9B8CE1D8DE45600780C13 /* WatchPaper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WatchPaper; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D9B8D11D8DE45600780C13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F4D9B8D81D8DE4F400780C13 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		F4D9B8D91D8DE57A00780C13 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F4D9B8DD1D8DE62F00780C13 /* Blob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
+		F4D9B8DE1D8DE62F00780C13 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		F4D9B8DF1D8DE62F00780C13 /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
+		F4D9B8E01D8DE62F00780C13 /* SQLite-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQLite-Bridging.h"; sourceTree = "<group>"; };
+		F4D9B8E11D8DE62F00780C13 /* SQLite-Bridging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SQLite-Bridging.m"; sourceTree = "<group>"; };
+		F4D9B8E21D8DE62F00780C13 /* Statement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statement.swift; sourceTree = "<group>"; };
+		F4D9B8E31D8DE62F00780C13 /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		F4D9B8E51D8DE62F00780C13 /* FTS4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS4.swift; sourceTree = "<group>"; };
+		F4D9B8E61D8DE62F00780C13 /* R*Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "R*Tree.swift"; sourceTree = "<group>"; };
+		F4D9B8E71D8DE62F00780C13 /* Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
+		F4D9B8E81D8DE62F00780C13 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		F4D9B8E91D8DE62F00780C13 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D9B8EA1D8DE62F00780C13 /* SQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLite.h; sourceTree = "<group>"; };
+		F4D9B8EC1D8DE62F00780C13 /* AggregateFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggregateFunctions.swift; sourceTree = "<group>"; };
+		F4D9B8ED1D8DE62F00780C13 /* Collation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collation.swift; sourceTree = "<group>"; };
+		F4D9B8EE1D8DE62F00780C13 /* CoreFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreFunctions.swift; sourceTree = "<group>"; };
+		F4D9B8EF1D8DE62F00780C13 /* CustomFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFunctions.swift; sourceTree = "<group>"; };
+		F4D9B8F01D8DE62F00780C13 /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		F4D9B8F11D8DE62F00780C13 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		F4D9B8F21D8DE62F00780C13 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		F4D9B8F31D8DE62F00780C13 /* Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; };
+		F4D9B8F41D8DE62F00780C13 /* Setter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setter.swift; sourceTree = "<group>"; };
+		F4D9B90B1D8DE68600780C13 /* WatchPaper-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WatchPaper-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D9B8DA1D8DE57A00780C13 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +86,10 @@
 		F4D9B8C51D8DE45600780C13 = {
 			isa = PBXGroup;
 			children = (
+				F4D9B90B1D8DE68600780C13 /* WatchPaper-Bridging-Header.h */,
+				F4D9B8DB1D8DE62F00780C13 /* SQLite */,
+				F4D9B8D91D8DE57A00780C13 /* libsqlite3.tbd */,
+				F4D9B8D81D8DE4F400780C13 /* Cartfile */,
 				F4D9B8D01D8DE45600780C13 /* WatchPaper */,
 				F4D9B8CF1D8DE45600780C13 /* Products */,
 			);
@@ -60,6 +109,60 @@
 				F4D9B8D11D8DE45600780C13 /* main.swift */,
 			);
 			path = WatchPaper;
+			sourceTree = "<group>";
+		};
+		F4D9B8DB1D8DE62F00780C13 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9B8DC1D8DE62F00780C13 /* Core */,
+				F4D9B8E41D8DE62F00780C13 /* Extensions */,
+				F4D9B8E71D8DE62F00780C13 /* Foundation.swift */,
+				F4D9B8E81D8DE62F00780C13 /* Helpers.swift */,
+				F4D9B8E91D8DE62F00780C13 /* Info.plist */,
+				F4D9B8EA1D8DE62F00780C13 /* SQLite.h */,
+				F4D9B8EB1D8DE62F00780C13 /* Typed */,
+			);
+			name = SQLite;
+			path = Carthage/Checkouts/SQLite.swift/SQLite;
+			sourceTree = "<group>";
+		};
+		F4D9B8DC1D8DE62F00780C13 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9B8DD1D8DE62F00780C13 /* Blob.swift */,
+				F4D9B8DE1D8DE62F00780C13 /* Connection.swift */,
+				F4D9B8DF1D8DE62F00780C13 /* fts3_tokenizer.h */,
+				F4D9B8E01D8DE62F00780C13 /* SQLite-Bridging.h */,
+				F4D9B8E11D8DE62F00780C13 /* SQLite-Bridging.m */,
+				F4D9B8E21D8DE62F00780C13 /* Statement.swift */,
+				F4D9B8E31D8DE62F00780C13 /* Value.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F4D9B8E41D8DE62F00780C13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9B8E51D8DE62F00780C13 /* FTS4.swift */,
+				F4D9B8E61D8DE62F00780C13 /* R*Tree.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4D9B8EB1D8DE62F00780C13 /* Typed */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9B8EC1D8DE62F00780C13 /* AggregateFunctions.swift */,
+				F4D9B8ED1D8DE62F00780C13 /* Collation.swift */,
+				F4D9B8EE1D8DE62F00780C13 /* CoreFunctions.swift */,
+				F4D9B8EF1D8DE62F00780C13 /* CustomFunctions.swift */,
+				F4D9B8F01D8DE62F00780C13 /* Expression.swift */,
+				F4D9B8F11D8DE62F00780C13 /* Operators.swift */,
+				F4D9B8F21D8DE62F00780C13 /* Query.swift */,
+				F4D9B8F31D8DE62F00780C13 /* Schema.swift */,
+				F4D9B8F41D8DE62F00780C13 /* Setter.swift */,
+			);
+			path = Typed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +222,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D9B9051D8DE62F00780C13 /* Schema.swift in Sources */,
+				F4D9B8FC1D8DE62F00780C13 /* Foundation.swift in Sources */,
+				F4D9B8F51D8DE62F00780C13 /* Blob.swift in Sources */,
+				F4D9B9061D8DE62F00780C13 /* Setter.swift in Sources */,
+				F4D9B8F71D8DE62F00780C13 /* SQLite-Bridging.m in Sources */,
+				F4D9B8FD1D8DE62F00780C13 /* Helpers.swift in Sources */,
+				F4D9B8F61D8DE62F00780C13 /* Connection.swift in Sources */,
+				F4D9B8FB1D8DE62F00780C13 /* R*Tree.swift in Sources */,
 				F4D9B8D21D8DE45600780C13 /* main.swift in Sources */,
+				F4D9B9001D8DE62F00780C13 /* CoreFunctions.swift in Sources */,
+				F4D9B8FF1D8DE62F00780C13 /* Collation.swift in Sources */,
+				F4D9B9031D8DE62F00780C13 /* Operators.swift in Sources */,
+				F4D9B8FE1D8DE62F00780C13 /* AggregateFunctions.swift in Sources */,
+				F4D9B8F81D8DE62F00780C13 /* Statement.swift in Sources */,
+				F4D9B8FA1D8DE62F00780C13 /* FTS4.swift in Sources */,
+				F4D9B9011D8DE62F00780C13 /* CustomFunctions.swift in Sources */,
+				F4D9B8F91D8DE62F00780C13 /* Value.swift in Sources */,
+				F4D9B9041D8DE62F00780C13 /* Query.swift in Sources */,
+				F4D9B9021D8DE62F00780C13 /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchPaper-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -219,6 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatchPaper-Bridging-Header.h";
 			};
 			name = Release;
 		};
