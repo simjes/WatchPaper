@@ -19,7 +19,7 @@ func getPicture(currentTime: Int) -> String {
         return "morning.jpg"
     } else if (currentTime >= 13 && currentTime < 18) {
         return "day.png"
-    } else if (currentTime >= 118 && currentTime < 21) {
+    } else if (currentTime >= 18 && currentTime < 21) {
         return "sunset.jpg"
     } else if (currentTime >= 21 && currentTime < 24) {
         return "dark.jpg"
