@@ -15,14 +15,14 @@ let hour = NSCalendar.currentCalendar().component(.Hour, fromDate: NSDate())
 func getPicture(currentTime: Int) -> String {
     if (currentTime >= 6 && currentTime < 10) {
         return "sunrise.jpg"
-    } else if (currentTime >= 10 && currentTime < 12) {
+    } else if (currentTime >= 10 && currentTime < 13) {
         return "morning.jpg"
-    } else if (currentTime >= 12 && currentTime < 16) {
+    } else if (currentTime >= 13 && currentTime < 18) {
         return "day.png"
-    } else if (currentTime >= 16 && currentTime < 19) {
-        return "dark.jpg"
-    } else if (currentTime >= 19 && currentTime < 22) {
+    } else if (currentTime >= 118 && currentTime < 21) {
         return "sunset.jpg"
+    } else if (currentTime >= 21 && currentTime < 24) {
+        return "dark.jpg"
     } else {
         return "night.png"
     }
